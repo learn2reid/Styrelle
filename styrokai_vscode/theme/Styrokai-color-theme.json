@@ -2,34 +2,106 @@
   "name": "Styrelle",
   "type": "dark",
   "colors": {
+    // Base Colors
+    "focusBorder": "#000000",
+    "foreground": "#ffffff",
+    // "widget.shadow": "",
+    "selection.background": "#53717a",
+    "descriptionForeground": "#8787a7",
+    // "errorForeground": "",
+
+    // Activity Bar — The Activity Bar is displayed either on the far left or right
+    "activityBar.dropBackground": "#000",
+    "activityBar.border": "#00F90033",
     "activityBar.background": "#000000",
     "activityBar.foreground": "#ffffff",
     "activityBarBadge.background": "#222222",
     "activityBarBadge.foreground": "#ffffff",
+
     "badge.background": "#f1f1f1",
     "badge.foreground": "#2b21b4",
     "button.background": "#2b21b4",
     "button.foreground": "#ffffff",
     "button.hoverBackground": "#2b21b4be",
-    "descriptionForeground": "#8787a7",
+
+    // DIFF EDITOR COLORS — For coloring inserted and removed text, use either a background or a border color but not both.
+    // "diffEditor.insertedTextBackground": "",
+    // "diffEditor.insertedTextBorder": "",
+    // "diffEditor.removedTextBackground": "",
+    // "diffEditor.removedTextBorder": "",
+
+    // DROPDOWN
     "dropdown.background": "#010101",
     "dropdown.border": "#333333",
     "dropdown.foreground": "#ffffff",
     "dropdown.listBackground": "#000000",
-    "editor.background": "#000000",
+
+    // EDITOR COLORS
     "editor.foreground": "#FFFFFF",
-    "editor.lineHighlightBackground": "#333333",
+    "editor.background": "#000000",
+    "editor.findMatchHighlightBackground": "#F2FF0599",
+    // "editor.findMatchHighlightBorder": "",
+    // "editor.findRangeHighlightBackground": "",
+    "editor.hoverHighlightBackground": "#1515FF",
+    "editor.lineHighlightBackground": "#33333366",
+    // "editor.lineHighlightBorder": "",
+    // "editor.rangeHighlightBorder": "",
     "editor.selectionBackground": "#2b21b4",
-    "editorCursor.foreground": "#FFFFFF",
+
+    // "editor.wordHighlightBackground": "",
+    // "editor.wordHighlightBorder": "",
+    // "editor.wordHighlightStrongBorder": "",
+
+    // "editorBracketMatch.background": "",
+    // "editorBracketMatch.border": "",
+
+    // "editorCodeLens.foreground": "",
+
+    // "editorCursor.background": "",
+    "editorCursor.foreground": "#FF0000",
+
+    // "editorError.border": "",
+    // "editorError.foreground": "",
+
     "editorGroupHeader.noTabsBackground": "#000000",
     "editorGroupHeader.tabsBackground": "#000000",
+
+    // "editorGutter.addedBackground": "",
     "editorGutter.background": "#000000",
-    "editorIndentGuide.activeBackground": "#ffffff",
-    "editorIndentGuide.background": "#777777",
+    // "editorGutter.deletedBackground": "",
+    // "editorGutter.modifiedBackground": "",
+
+    // "editorHint.border": "",
+    // "editorHint.foreground": "",
+
+    "editorIndentGuide.activeBackground": "#ff0080",
+    "editorIndentGuide.background": "#1d1f20",
+
+    // "editorInfo.foreground": "",
+
+    "editorLineNumber.activeForeground": "#06FF05",
+    // "editorLineNumber.foreground": "",
+
+    // "editorOverviewRuler.addedForeground": "",
+    // "editorOverviewRuler.deletedForeground": "",
+    // "editorOverviewRuler.errorForeground": "",
+    // "editorOverviewRuler.findMatchForeground": "",
+    // "editorOverviewRuler.infoForeground": "",
+    // "editorOverviewRuler.modifiedForeground": "",
+    // "editorOverviewRuler.rangeHighlightForeground": "",
+    // "editorOverviewRuler.selectionHighlightForeground": "",
+    // "editorOverviewRuler.warningForeground": "",
+    // "editorOverviewRuler.wordHighlightForeground": "",
+    // "editorOverviewRuler.wordHighlightStrongForeground": "",
+
     "editorRuler.foreground": "#777777",
-    "editorWhitespace.foreground": "#5C5C58",
-    "focusBorder": "#000000",
-    "foreground": "#ffffff",
+    // "editorWarning.border": "",
+    // "editorWarning.foreground": "",
+    // "editorWhitespace.foreground": "",
+    // "editorOverviewRuler.commonContentForeground": "",
+    // "editorOverviewRuler.currentContentForeground": "",
+
+    // GIT
     "gitDecoration.addedResourceForeground": "#89e215",
     "gitDecoration.conflictingResourceForeground": "#f0af2e",
     "gitDecoration.deletedResourceForeground": "#cf3838",
@@ -37,6 +109,7 @@
     "gitDecoration.modifiedResourceForeground": "#CCCC97",
     "gitDecoration.submoduleResourceForeground": "#cf1db2",
     "gitDecoration.untrackedResourceForeground": "#3BE5FF",
+
     "input.background": "#101010",
     "input.border": "#fafafa",
     "list.activeSelectionBackground": "#111132",
@@ -53,7 +126,50 @@
     "list.inactiveSelectionForeground": "#e4e4e4",
     "list.invalidItemForeground": "#e4e4e4",
     "list.warningForeground": "#ff4040",
-    "selection.background": "#53717a",
+
+    // Peek View Colors — Peek views are used to show references and declarations as a view inside the editor.
+    // "peekView.border": "",
+    // "peekViewEditor.background": "",
+    // "peekViewEditorGutter.background": "",
+    // "peekViewEditor.matchHighlightBackground": "",
+    // "peekViewResult.background": "",
+    // "peekViewResult.fileForeground": "",
+    // "peekViewResult.lineForeground": "",
+    // "peekViewResult.matchHighlightBackground": "",
+    // "peekViewResult.selectionBackground": "",
+    // "peekViewResult.selectionForeground": "",
+    // "peekViewTitle.background": "",
+    // "peekViewTitleDescription.foreground": "",
+    // "peekViewTitleLabel.foreground": "",
+
+    // MERGE CONFLICTS — Merge conflict decorations are shown when the editor contains special diff ranges.
+    // "merge.currentHeaderBackground": "",
+    // "merge.currentContentBackground": "",
+    // "merge.incomingHeaderBackground": "",
+    // "merge.incomingContentBackground": "",
+    // "merge.border": "",
+    // "merge.commonContentBackground": "",
+    // "merge.commonHeaderBackground": "",
+
+    // NOTIFICATION COLORS — Notification toasts slide up from the bottom-right of the workbench.
+    // "notificationCenter.border": "",
+    // "notificationCenterHeader.foreground": "",
+    // "notificationCenterHeader.background": "",
+    // "notificationToast.border": "",
+    // "notifications.foreground": "",
+    // "notifications.background": "#222",
+    // "notifications.border": "",
+    // "notificationLink.foreground": "",
+
+    // PANEL COLORS — Panels are shown below the editor area and contain views like Output and Integrated Terminal.
+    // "panel.background": "",
+    // "panel.border": "",
+    // "panel.dropBackground": "",
+    // "panelTitle.activeBorder": "",
+    // "panelTitle.activeForeground": "",
+    // "panelTitle.inactiveForeground": "",
+
+    // SIDEBAR & STATUSBAR
     "sideBar.background": "#000000",
     "sideBar.foreground": "#fafafa",
     "sideBarTitle.foreground": "#fafafa",
@@ -61,17 +177,45 @@
     "statusBar.noFolderBackground": "#000000",
     "statusBar.debuggingBackground": "#462020",
     "statusBar.foreground": "#ffffff",
+
+    // TABS
     "tab.activeBackground": "#000000",
     "tab.activeBorder": "#cccccc",
-    "tab.activeForeground": "#fafafa",
+    "tab.activeForeground": "#06FF05",
     "tab.border": "#000000",
     "tab.inactiveBackground": "#000000",
     "tab.inactiveForeground": "#fafafa",
+    "tab.hoverBackground": "#0d0d55",
+    "tab.hoverBorder": "#1515FF",
+
+    // INTEGRATED TERMINAL COLORS
+    // "terminal.background": "",
+    // "terminal.foreground": "",
+
+    // TITLE BAR COLORS (MACOS)
     "titleBar.activeBackground": "#000000",
     "titleBar.activeForeground": "#fafafa",
     "titleBar.border": "#000000",
     "titleBar.inactiveBackground": "#222222",
-    "titleBar.inactiveForeground": "#aaaaaa"
+    "titleBar.inactiveForeground": "#aaaaaa",
+
+    // WIDGET
+    // Editor Widget Colors - The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover
+    "editorWidget.background": "#111"
+    // "editorWidget.border": "",
+    // "editorSuggestWidget.background": "",
+    // "editorSuggestWidget.border": "",
+    // "editorSuggestWidget.foreground": "",
+    // "editorSuggestWidget.highlightForeground": "",
+    // "editorSuggestWidget.selectedBackground": "",
+    // "editorHoverWidget.background": "",
+    // "editorHoverWidget.border": "",
+    // "debugExceptionWidget.background": "",
+    // "debugExceptionWidget.border": "",
+    // "editorMarkerNavigation.background": "",
+    // "editorMarkerNavigationError.background": "",
+    // "editorMarkerNavigationWarning.background": "",
+    // "editorMarkerNavigationInfo.background": "",
   },
   "tokenColors": [
     {
