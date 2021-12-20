@@ -1,0 +1,49 @@
+{
+    "name": "styrelle2",
+    "displayName": "Styrelle2",
+    "description": "A vivid, bolded, pitch-black Monokai color theme (Edited for myself)",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/learn2reid/Styrelle.git"
+    },
+    "homepage": "https://github.com/jaredgorski/Styrokai/blob/master/README.md",
+    "author": {
+        "name": "lolo"
+    },
+	"keywords": [
+		"dark",
+		"black",
+		"pitch",
+		"contrast",
+		"monokai",
+		"hyper",
+		"simple",
+		"seti",
+		"pure",
+		"clean",
+		"blackboard",
+		"material",
+		"minimal",
+		"hyper",
+		"hyperterm"
+	],
+    "icon": ".media/styrokai_icon.png",
+    "galleryBanner": {
+        "color": "#000000",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [{
+            "label": "Styrelle2",
+            "uiTheme": "vs-dark",
+            "path": "./themes/Styrelle-color-theme.json"
+        }]
+    }
+}
