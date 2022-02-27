@@ -1,8 +1,8 @@
 {
-    "name": "styrelle2",
-    "displayName": "Styrelle2",
+    "name": "styrelle",
+    "displayName": "Styrelle",
     "description": "A vivid, bolded, pitch-black Monokai color theme (Edited for myself)",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "repository": {
         "type": "git",
         "url": "https://github.com/learn2reid/Styrelle.git"
@@ -41,7 +41,7 @@
     ],
     "contributes": {
         "themes": [{
-            "label": "Styrelle2",
+            "label": "Styrelle",
             "uiTheme": "vs-dark",
             "path": "./themes/Styrelle-color-theme.json"
         }]
