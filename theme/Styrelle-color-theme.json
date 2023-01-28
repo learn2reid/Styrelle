@@ -74,6 +74,23 @@
         "titleBar.inactiveForeground": "#aaaaaa"
     },
     "tokenColors": [
+		{
+            "name": "String, Symbols, Inherited Class, Markup Heading",
+            "scope": [
+                "constant.other.key",
+                "constant.other.symbol",
+                "entity.other.inherited-class",
+                "markup.heading",
+                "markup.inserted.git_gutter",
+                "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+                "string"
+            ],
+            "settings": {
+                // "foreground": "#C3E88D"
+                "foreground": "#8FFF58",
+				"background": "#102622FA"
+            }
+        },
         {
             "name": "Attributes",
             "scope": [
@@ -612,21 +629,7 @@
                 "foreground": "#89DDFF"
             }
         },
-        {
-            "name": "String, Symbols, Inherited Class, Markup Heading",
-            "scope": [
-                "constant.other.key",
-                "constant.other.symbol",
-                "entity.other.inherited-class",
-                "markup.heading",
-                "markup.inserted.git_gutter",
-                "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
-                "string"
-            ],
-            "settings": {
-                "foreground": "#C3E88D"
-            }
-        },
+
         {
             "name": "Sub-methods",
             "scope": [
